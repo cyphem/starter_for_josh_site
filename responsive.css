@@ -8,3 +8,31 @@
         margin:auto;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .herobg h1 {
+        float: none;
+        width: 100%;
+        font-size: 5.1em;
+        letter-spacing: -10px;
+        margin-top: 69%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    
+    .herobg{
+        background-position: -100px center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-text{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.1em;
+    }
+    .particle{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
