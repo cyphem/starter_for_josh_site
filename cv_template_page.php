@@ -3,7 +3,7 @@
 Template Name: CV
 */
 ?>
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
